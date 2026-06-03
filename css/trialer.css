@@ -12,7 +12,7 @@
 }
 
 body {
-  background: var(--background-color);
+  background: (--background-color);
   font-family: var(--font-family);
   margin: 0;
   padding: 0;
@@ -46,13 +46,13 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.button {
+.nav-button {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-.button button, .button a {
+.nav-button button, .nav-button a {
   background: var(--primary-color);
   color: white;
   border: none;
@@ -67,7 +67,7 @@ body {
   display: inline-block;
 }
 
-.button button:hover, .button a:hover {
+.nav-button button:hover, .nav-button a:hover {
   background: #0b3b67;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(15, 76, 129, 0.4);
@@ -96,16 +96,16 @@ body {
   line-height: 1.8;
 }
 
-.content-description p1, .content-description p2 {
+.content-description p, .content-description p {
   margin-bottom: 20px;
 }
 
-.content-description p1 {
+.content-description p {
   font-weight: 600;
   color: var(--text-color);
 }
 
-.content-description p2 {
+.content-description p {
   font-style: italic;
   color: #666;
 }
@@ -188,12 +188,12 @@ ol li {
     margin-bottom: 15px;
   }
 
-  .button {
+  .nav-button {
     justify-content: center;
     width: 100%;
   }
 
-  .button button {
+  .nav-button button {
     flex: 1 1 150px;
     min-width: 150px;
   }
@@ -214,18 +214,17 @@ ol li {
 
 .content-image {
   display: flex;
-  width: 40%;
-  height: 20%;
-  
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .content-image img {
- border-radius: 60px;
- gap: 50px; 
- padding: 40px;
- width: 100%;
- height: 100%;
-
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 /* Create Account Section */
