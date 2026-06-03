@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Dashboard & CSV Files</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="logo">
+            <img src="../collection/image-no-background.png" alt="Stay N' Play Logo">
+        </div>
+        <nav class="main-nav">
+            <a href="../trailer.html">Home</a>
+            <a href="../stayplay.html">About</a>
+            <a href="../listevents.html">Events</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        <section class="hero">
+            <h1>Upload Dashboards & CSV Files</h1>
+            <p>Use this page to submit offline dashboard files and CSV data for your website marketing or product showcase.</p>
+            <p class="note">Note: This page previews uploads in the browser. To store files permanently, connect the form to a server or cloud storage service.</p>
+        </section>
+
+        <section class="upload-section">
+            <form id="upload-form" class="upload-form" method="post" action="#" enctype="multipart/form-data">
+                <div class="field-group">
+                    <label for="seller-name">Your Name</label>
+                    <input type="text" id="seller-name" name="sellerName" placeholder="Enter your name" required>
+                </div>
+
+                <div class="field-group">
+                    <label for="seller-email">Email Address</label>
+                    <input type="email" id="seller-email" name="sellerEmail" placeholder="Enter your email" required>
+                </div>
+
+                <div class="field-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="4" placeholder="Describe the dashboard or CSV content" required></textarea>
+                </div>
+
+                <div class="field-group file-group">
+                    <label for="file-input">Select files</label>
+                    <input type="file" id="file-input" name="files" multiple accept=".csv,.pdf,.png,.jpg,.jpeg,.html,.zip,.xlsx">
+                    <p class="hint">Accepts CSV, image, PDF, HTML, ZIP, and Excel files. Drag files into the box below.</p>
+                </div>
+
+                <div id="drop-zone" class="drop-zone">
+                    Drag & drop files here, or click to select.
+                </div>
+
+                <div id="file-list" class="file-list"></div>
+
+                <button type="submit" class="submit-btn">Preview Upload</button>
+            </form>
+
+            <div id="status-box" class="status-box"></div>
+        </section>
+    </main>
+
+    <footer class="page-footer">
+        <p>&copy; 2025 Stay N' Play. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

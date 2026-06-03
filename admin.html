@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Stay N' Play</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <a href="trailer.html">Home</a>
+            <a href="stayplay.html">About</a>
+            <a href="listevents.html">Events</a>
+        </nav>
+
+        <h1>Admin Dashboard</h1>
+
+        <div id="login-section">
+            <div class="login-form">
+                <h2>Admin Login</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                    <p><em>Demo account: admin/admin123</em></p>
+                </form>
+            </div>
+        </div>
+
+        <div id="admin-content" style="display: none;">
+            <div class="user-info">
+                Logged in as: <span id="current-user"></span> | <button id="logout-btn">Logout</button>
+            </div>
+
+            <section class="dashboard-section">
+                <h2>Event Management</h2>
+                <p>Use this dashboard to manage all events posted on the Stay N' Play platform.</p>
+                <a href="listevents.html" class="btn btn-primary">Go to Events Manager</a>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

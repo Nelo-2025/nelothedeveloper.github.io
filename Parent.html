@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Dashboard - Stay N' Play</title>
+    <link rel="stylesheet" href="css/parent.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <a href="trailer.html">Home</a>
+            <a href="stayplay.html">About</a>
+            <a href="listevents.html">Events</a>
+        </nav>
+
+        <h1>Parent Dashboard</h1>
+
+        <div id="login-section">
+            <div class="login-form">
+                <h2>Parent Login</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" required>
+                    </div>
+                    <button type="submit">Login</button>
+                    <p><em>Demo account: parent / parent123</em></p>
+                </form>
+            </div>
+        </div>
+
+        <div id="parent-content" style="display: none;">
+            <div class="user-info">
+                Logged in as: <span id="current-user"></span> | <button id="logout-btn">Logout</button>
+            </div>
+
+            <section class="dashboard-section">
+                <h2>Welcome to Your Dashboard</h2>
+                <p>Explore upcoming events, book activities for your children, and connect with other parents in your community.</p>
+                <a href="listevents.html" class="btn btn-primary">Browse Events</a>
+            </section>
+
+            <section class="dashboard-section">
+                <h2>My Bookings</h2>
+                <p>View and manage your event bookings here.</p>
+                <div id="bookings-list">
+                    <p>No bookings yet. <a href="listevents.html">Browse events</a> to make your first booking!</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/parent.js"></script>
+</body>
+</html>

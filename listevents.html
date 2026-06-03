@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listings - Stay N' Play</title>
+    <link rel="stylesheet" href="css/listevents.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="trailer.html">Home</a> |
+            <a href="stayplay.html">About</a> |
+            <a href="listevents.html">Events</a> |
+            <a href="upload/index.html">Upload</a>
+        </nav>
+        <h1>Event Listings - Stay N' Play</h1>
+
+        <div id="main-content">
+            <div class="filter">
+                <label for="category-filter">Filter by Category:</label>
+                <select id="category-filter">
+                    <option value="">All Categories</option>
+                    <option value="Playdate">Playdate</option>
+                    <option value="Story Time">Story Time</option>
+                    <option value="Crafts">Crafts</option>
+                    <option value="Music">Music</option>
+                    <option value="Outdoor">Outdoor</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            
+            <h2>Upcoming Events</h2>
+            <ul id="events-list" class="events-list">
+                <!-- Events will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/listevents.js"></script>
+</body>
+</html>
