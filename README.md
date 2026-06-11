@@ -2,11 +2,11 @@
 
 # StayTech: Digital Infrastructure for Local Stay N' Play Communities
 
-## Executive Summary & Business Vision
+## Business Vision
 
-StayTech is a comprehensive frontend solution designed to bridge the gap between local parents/caregivers and community Stay N' Play groups. While initially sparked by a desire to uplift early childhood development spaces, the platform is structured as a **scalable B2B2C SaaS model** with clear routes to monetization.
+StayTech is a comprehensive frontend solution designed to bridge the gap between local parents/caregivers and community Stay N' Play groups. Working as a volunteer with Stay N' Play group (early childhood development) discovered parents and group problem with discovering events and booking. This web app is dedicated to increase visibility, showcase events and scale. The platform is structured as a **scalable B2B2C SaaS model** with clear routes to monetization.
 
-### The Business Opportunity (Commercialization Strategy)
+### The Business Opportunity 
 
 Rather than operating purely as a community directory, StayTech acts as a multi-tenant hub addressing critical operational pain points for community centers, local councils, and corporate sponsors:
 
@@ -31,29 +31,29 @@ This project exhibits clean, modular, and semantic frontend engineering practice
 
 ### Key Functional Portals Developed:
 
-1. **Public Discovery Engine (`index.html`, `listevents.html`):** Features client-side filtering systems allowing users to sort real-time listings by categories like *Story Time, Playdate, Crafts, and Music*
+1. **Public Discovery Engine (`index.html`, `listevents.html`):** Features client-side filtering, allowing users to sort real-time listings by categories like *Story Time, Playdate, Crafts, and Music*
 
-2. **Parent Hub & Secure Workflows (`Parent.html`):** An intuitive personal dashboard featuring unified login state changes, target booking metrics, and tracking UI
+2. **Parent Hub (`Parent.html`):** An intuitive personal dashboard featuring unified login state changes, target booking metrics, and tracking UI
 
-3. **Admin Command Center (`admin.html`):** A protected layout interface showcasing specialized metrics, role-restricted messaging, and quick-links to event population managers.
+3. **Admin Center (`admin.html`):** A protected layout interface showcasing specialized metrics, role-restricted messaging, and quick-links to event population managers.
 
 ---
 
-## Leadership & Project Genesis
+## Leadership & Startup Development
 
 > **I dedicate this work to my local Stay and Play community groups. Their ongoing support, encouragement, and incredible sense of community deeply inspired me throughout the development of this project.**
 
 ### Product Ownership & Execution
 
-As the sole developer and product owner of this digital infrastructure, I didn't just write code, I conducted user research within my local community
+As the sole developer of this digital infrastructure, I didn't just write code, I conducted user research within my local community
 
 - **Identifying the Void:** Recognized that localized early childhood groups (ages 0-5) suffer from severe fragmentation, relying on outdated social media threads or physical notice boards.
 
 - **Community Alignment:** Designed a dedicated intake system to lower the entry barrier for digitally isolated caregivers, tracking crucial field variables like child count and postcodes to immediately map out localized density metrics.
 
-## Technical Footprint and Clean Code Practices
+## Technical Leadership and Code Quality 
 
-- **Granular Environment Management.** Features a production-ready `.gitignore` precisely calibrated for scaling environments (supporting modular configurations for Visual Studio ecosystems, package managers, and automated testing results frameworks)
+- **Deployment Environment Management.** Features a production-ready `.gitignore` precisely calibrated for scaling environments (supporting modular configurations for Visual Studio ecosystems, package managers, and automated testing results frameworks)
 
 - **optimized Asset Delivery:** seamless implementation of native, looping, muted background video elements (`<video autoplay muted loop>`) to create a high-fidelity, welcoming web aesthetic without sacrificing performance budgets.
 
@@ -61,7 +61,7 @@ As the sole developer and product owner of this digital infrastructure, I didn't
 
 ## Future Roadmap
 
-1. **Full Stack Migration:** Transitioning static state engines into a PHP backed by MySQL database.
+1. **Full Stack Development:** Transitioning static state engines into a PHP backed by MySQL database.
 
 2.  **Geospatial Mapping Integration:** Building out encrypted data handling pathways to ensure 100% GDPR/COPPA compliance regarding early-years event documentation.
 
